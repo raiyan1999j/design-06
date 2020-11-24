@@ -1,0 +1,106 @@
+body{
+      background-color:#b2bec3;
+    }
+    .drop{
+      position:relative;
+      width:90%;
+      height:1100px;
+      left:20px;
+      top:10px;
+      background-color: #e74c3c;
+      color:white;
+      margin-left:50px;
+    }
+    .raiyan{font-size:50px;
+      margin-left:20px;}
+    .khan{font-size:20px;
+      margin-left:20px;}
+    .down{
+      position:absolute;
+      width:1160px;
+      height:800px;
+      left:20px;
+      margin-top:0px;
+      background-color:white;
+    }
+    .cena{margin-top:-500px;
+      margin-left:30px;
+      width:60%;
+      color:black;
+      display:inline-block;}
+       a{color:#e74c3c;
+        text-decoration:none;
+        font-size:20px;
+        }
+        .side-bar{background-color:#fab1a0;
+          display:block;
+          width:1110px;
+          color:black;
+        }
+        p:hover{color:#EC407A;}
+          .evan{
+            bottom:7%;
+            text-align:center;
+            font-size:20px;
+            position:absolute;
+            width:100%;
+          }
+         
+          .salman{
+            height:500px;
+            width:200px;
+            margin-left:80%;
+            margin-top:15px;
+            color:#e74c3c;
+            font-size:35px;
+            font-weight: bold;
+            border-radius: 25px;
+            border:none;
+            text-align:center;
+            
+          }
+          button{font-size: 35px;
+              background-color: #e74c3c;
+              color:white;
+              border:none;
+              border-radius: 25px;
+              width:200px;
+              box-shadow:3px 5px 10px #e74c3c
+              }
+           #tony{
+            background-color: #81ecec;
+            color:#e74c3c;
+            font-weight:bold;
+            border:none;
+            }
+          
+    .brock a{display:inline-block;
+            display:none; 
+            list-style-type: none;
+            text-decoration: none;
+            text-align:center;
+            border-radius: 25px;
+            border:1px solid white;
+            background-color: #e74c3c;
+            color:white;
+            padding:5px;
+            width:200px;
+            animation:what 2s backwards;}
+            .brock a:hover {background-color:white;
+              border:1px solid #e74c3c;
+              color:#e74c3c;
+            }
+            .salman:hover .brock a{
+              display:block;
+            }
+            @keyframes what{
+              from{transform:translateX(55px);
+                opacity:0.0;}
+              to{transform:translateX(0px);}
+            }
+            .brock a:nth-child(1){animation-delay:0s;}
+            .brock a:nth-child(2){animation-delay:0.5s;}
+            .brock a:nth-child(3){animation-delay:1s;}
+            .brock a:nth-child(4){animation-delay:1.5s;}
+            .brock a:nth-child(5){animation-delay:2s;}
+
